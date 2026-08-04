@@ -2,13 +2,14 @@
 
 <div align="center">
 
-https://img.shields.io/badge/ParamScout-v1.0-blue
-https://img.shields.io/badge/python-3.6+-green
-https://img.shields.io/badge/license-MIT-red
-https://img.shields.io/badge/platform-Linux%20%7C%20MacOS%20%7C%20Windows-lightgrey
-https://img.shields.io/badge/build-passing-brightgreen
 
-Advanced HTTP Parameter Discovery Tool for Security Researchers & Penetration Testers
+![Version](https://img.shields.io/badge/ParamScout-v1.0-blue)
+![Python](https://img.shields.io/badge/python-3.6%2B-green)
+![License](https://img.shields.io/badge/license-MIT-red)
+![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20macOS%20%7C%20Windows-lightgrey)
+![Build](https://img.shields.io/badge/build-passing-brightgreen)
+
+**Advanced HTTP Parameter Discovery Tool for Security Researchers & Penetration Testers**
 
 Installation • Quick Start • Features • Architecture • Documentation
 
