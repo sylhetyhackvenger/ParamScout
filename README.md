@@ -482,45 +482,6 @@ graph TB
     W5 --> MC
 ```
 
-State Machine Diagram
-
-```mermaid
-stateDiagram-v2
-    [*] --> Idle
-    
-    Idle --> Loading: Start Scan
-    Loading --> Validating: Wordlist Loaded
-    
-    Validating --> Probing: URL Valid
-    Validating --> Error: Invalid URL
-    
-    Probing --> Analyzing: Baseline Received
-    Probing --> Retrying: Timeout/Error
-    Retrying --> Probing: Retry Count < Max
-    
-    Analyzing --> Detecting: Factors Built
-    
-    Detecting --> Processing: Batches Created
-    
-    Processing --> Comparing: Request Sent
-    Comparing --> Analyzing: Response Received
-    Comparing --> Retrying: Network Error
-    
-    Processing --> Verifying: Anomalies Found
-    
-    Verifying --> Aggregating: Parameters Validated
-    
-    Aggregating --> Exporting: Results Collected
-    
-    Exporting --> [*]: Done
-    Error --> [*]: Failed
-    Retrying --> Error: Max Retries Exceeded
-    
-    state Retrying {
-        [*] --> Wait
-        Wait --> Retry
-        Retry --> [*]
-    }
 ```
 
 ---
