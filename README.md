@@ -13,7 +13,7 @@
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 
 **Advanced HTTP Parameter Discovery Tool for Security Researchers & Penetration Testers**
-
+# Arjun Tool's fixed bug issues 
 Installation • Quick Start • Features • Architecture • Documentation
 
 </div>
